@@ -11,7 +11,7 @@ const Xpagination = () => {
                 setData(response);
             })
             .catch((error) => {
-                console.error('Error fetching data:', error);
+                alert('failed to fetch data');
             });
     }, []);
 
